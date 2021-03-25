@@ -3,8 +3,11 @@ package com.prisar.networkalert;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.media.Ringtone;
+import android.media.RingtoneManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
